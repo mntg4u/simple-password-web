@@ -10,7 +10,7 @@ loginForm.addEventListener('submit', (event) => {
   console.log('Password:', password);
   
   if (username === 'admin' && password === '19999') {
-    alert('Login successful!');
+    document.write('Login successful! . https://t.me/mnbots this is your link');
   } else {
     alert('Invalid username or password!');
   }
